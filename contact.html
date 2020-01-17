@@ -60,16 +60,16 @@
 											<div class="col-6 col-12-mobile">
 											<form class="contact-form" method="POST" data-netlify="true" action="POST">
 
-												<input type="text" name="name" placeholder="Name" />
+												<input id='name' name='name' type="text" class="form-control" placeholder="Your Name"required>
 											</div>
 											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
+												<input name="email" id="email" type="email" class="form-control" placeholder="Email Id"required>
 											</div>
-											<div class="col-12">
+											<!--<div class="col-12">
 												<input type="text" name="subject" placeholder="Subject" />
-											</div>
+											</div>--->
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
+												<textarea id="message" name="message"  class="form-control" rows="4" placeholder="Message"></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="buttons">
